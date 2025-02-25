@@ -1,0 +1,20 @@
+// This is the package to access the components in the class of same Package named Inheritence
+// Main here is used to access the contents of the BoxSum Class
+package Inheritence;
+
+public class Main {
+    public static void main(String[] args) {
+        // Here box1 is the insatce of BoxSum class without defined parameters
+        BoxSum box1=new BoxSum();
+        System.out.println(box1.l);
+
+        // Craete an instance of BoxSum class with defined parameters
+        BoxSum box2=new BoxSum(1,2,3);
+        System.out.println(box2.l+" " +box2.b+" "+ box2.h);
+
+        // Also create an object with single default value for cube side Calculation
+        BoxSum box3  = new BoxSum(4);
+        System.out.println(box3.l+" " +box3.b+" "+ box3.h);
+    }
+    
+}
