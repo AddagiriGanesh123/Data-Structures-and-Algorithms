@@ -1,0 +1,55 @@
+// Inheritence: Extending properties from parent class to child class.
+// Single, Multi-level, Hierarchial Inheritence types:
+package Inheritence;
+public class Box {
+    double l,b,h;
+    Box(double l,double b,double h){
+        this.l = l;
+        this.b = b;
+        this.h = h;
+    }
+    Box(){
+        this.l = -1;
+        this.b = -1;
+        this.h = -1;
+    }
+    Box(double l){
+        this.l = -1;
+    }
+    
+}
+class BoxPrice extends BoxWeight {
+    double price;
+    BoxPrice(double price,double weight,double l,double b,double h){
+        super(l,b,h,weight);
+        this.l = l;
+        this.weight = weight;
+        this.price = price;
+        this.b = b;
+        this.h = h;
+    }
+}
+class BoxWeight extends Box {
+    double weight;
+    BoxWeight(double weight){
+        this.weight = weight;
+    }
+    //Extending Properties from Super class Here as Box class
+    BoxWeight(double weight,double l,double b,double h){
+        super(l,b,h);
+        this.weight = weight; 
+        this.l = l;
+        this.b = b;
+        this.h = h;
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        Box obj = new Box(1,2,3);
+        System.out.println(obj.l);
+a
+        BoxPrice obj1 = new BoxPrice(55,67,44,99,1000);
+        System.out.println(obj1.weight);
+    }
+    
+}
