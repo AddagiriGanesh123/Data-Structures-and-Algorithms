@@ -1,0 +1,9 @@
+Encapsulation:
+Wrapping up the implemetation of the data members(Variables) and methods(Functions) into a single unit to defined in as a Single Class
+It is the containing of the data
+It is the external implementation of the data
+
+Abtraction:
+Hiding the internal Functionality and interfaces the essential and Needed Stuff appropriately
+It is the gaining of the data
+It is the inbternal implementation of the data(Internal design)
