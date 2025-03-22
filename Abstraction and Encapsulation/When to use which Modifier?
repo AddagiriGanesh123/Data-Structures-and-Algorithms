@@ -1,0 +1,15 @@
+Private: Private is ued when for sensitive data and we don't want for direct accesss
+-> You can access or modify it via some getter and setter methods
+
+No Modifier : No modifier is used, foer those variables do not wanted to be in the out-side package
+-->Example:
+-> If we are having students data, only those students canm access patrticular data
+-> NO other enetities from poutside ythe package unable to accesss it and without prior of the Students no one can't gain the data .
+
+Protected: I don't want any variables outside the package, I wanted toi access the variables outside the apckage in the sub class.
+
+
+Public: When we wanted to be accesed every wehere withouyt any limitation
+
+
+
