@@ -1,0 +1,14 @@
+-->lang : Used fort the java language stuff like operators(primitive) to add/subtract/multiply etc.
+It is a In-Built package
+
+--> io package: what it contains means input & output classes
+It is used for file reading for optimizing, writing, Buffer Reader etc these go inside io package
+
+--> Util : contains utilities use for data structutres and stuff 
+Also collections, frameworks also well
+
+-->Applet: For Development 
+
+-->awt: for GUI(Graphical User Interface)
+
+-->net: we are working with the networking applications
