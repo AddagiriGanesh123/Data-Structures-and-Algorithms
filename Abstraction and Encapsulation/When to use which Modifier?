@@ -6,7 +6,8 @@ No Modifier : No modifier is used, foer those variables do not wanted to be in t
 -> If we are having students data, only those students canm access patrticular data
 -> NO other enetities from poutside ythe package unable to accesss it and without prior of the Students no one can't gain the data .
 
-Protected: I don't want any variables outside the package, I wanted toi access the variables outside the apckage in the sub class.
+Protected: I don't want any variables outside the package, I wanted to access the variables outside the apckage in the sub class.
+-> Only sub-class can access the memebers in the protected class when it is outside the package
 
 
 Public: When we wanted to be accesed every wehere withouyt any limitation
