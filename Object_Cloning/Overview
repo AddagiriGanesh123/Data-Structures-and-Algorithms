@@ -1,0 +1,14 @@
+Object Cloning: Copying of objects form one to another onjects
+// It is of 2 types:
+// 1) Shallow Cloning: If any one object values changes then automatically other object values also changes approppriately
+Ex: public Object clone(){
+return super.clone();
+}
+// 2) Deep Cloning: If any one object values changes then automatically other object values also won't changes approppriately
+Ex:
+public Object clone() throes CloneException(){
+  ganesh.arr = new int[ganesh,arr.length];
+for(int i =0;i<arr.length;i++){
+ganesh.arr[i] = this.arr[i];
+}
+return ganesh; // only ganesh values in the array shall takes change and sudhakar values won't changhe in Deep Cloning mechanism.
