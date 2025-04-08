@@ -1,0 +1,11 @@
+Sorting: Converting the order of elements in either Ascdending order or Descending Order
+BUBBLE SORT:
+Space Complexity : O(1)-> Linear
+i.e., No duplication of code, copying array into another array
+
+Time Complexity:
+O(n)-> For best case (If the elements are not swapped case)
+Ex: If we have 5 elements in the array then 5 times the array is checked
+
+O(n^2)-> For worst case ( If the elements are swapped case)
+Ex: If we have 5 elements in the array then [5 * 5 = 25] times the array is checked
