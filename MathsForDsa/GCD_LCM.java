@@ -3,6 +3,7 @@ public class GCD_LCM {
         System.out.println(gcd(9, 18));
         System.out.println(lcm(9,18));
     }
+    // Method to find the Greatest Common Divisor-> HCF
     public static int gcd(int a, int b){
         if(a == 0){
             return b;
