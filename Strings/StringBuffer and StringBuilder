@@ -1,0 +1,5 @@
+// The key difference between StringBuffer and StringBuilder in Java lies in their thread safety. 
+// StringBuilder is more efficient then String Buffer
+// StringBuffer is synchronized, meaning it's thread-safe, while StringBuilder is not, 
+// making it faster for single-threaded operations. 
+// StringBuffer was introduced earlier in Java 1.0, whereas StringBuilder was added in Java 1.5
