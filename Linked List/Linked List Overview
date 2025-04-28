@@ -1,0 +1,11 @@
+A linked list is a linear data structure where elements are stored in nodes. Each node contains data and a reference (pointer) to the next node in the sequence. Unlike arrays, linked lists do not store elements in contiguous memory locations, which allows for efficient insertion and deletion of elements at any position. 
+linked list elements store elements in Non- Contigious manner
+Types of Linked Lists
+Singly Linked List: Each node points only to the next node in the sequence.
+Doubly Linked List: Each node points to both the next and previous nodes in the sequence, allowing for bidirectional traversal.
+Circular Linked List: The last node points back to the first node, forming a loop. 
+Basic Operations on Linked Lists
+Insertion: Adding a new node at the beginning, end, or a specific position in the list.
+Deletion: Removing a node from the beginning, end, or a specific position in the list.
+Traversal: Visiting each node in the list, typically from the head to the tail.
+Search: Finding a node with a specific value in the list.
