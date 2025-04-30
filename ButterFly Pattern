@@ -1,0 +1,38 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class ButterFly {
+    public static void main(String[] args) {
+        int n = 5;
+        // Upper Part:
+        for(int i =1 ;i<= n ; i++){
+            for(int j = 1;j <= i; j++){
+                System.out.print("*");
+            }
+            // Spaces
+            for(int s = 1; s <= 2 * (n - i) ; s++){
+                System.out.print(" ");
+            }
+            // Right starts
+            for(int j = 1;j <= i; j++){
+                System.out.print("*");
+            }
+             System.out.println();
+        }
+        // Bottom Part:
+        for(int i = n ;i >= 1 ; i--){
+            for(int j = 1;j <= i; j++){
+                System.out.print("*");
+            }
+            // Spaces
+            for(int s = 1; s <= 2 * (n - i) ; s++){
+                System.out.print(" ");
+            }
+            // Right starts
+            for(int j = 1;j <= i; j++){
+                System.out.print("*");
+            }
+             System.out.println();
+        }
+    }
+}
