@@ -20,3 +20,48 @@ access_modifier ClassName(){
 Note:- In a class we can not have duplicate constructor
 -> Some places default constructor and non-parametrised constructor considers as same
 
+Clear Concern:
+
+In Java, a constructor is a special method that shares the same name as its class and does not have a return type. Constructors are used to initialize objects of a class when they are created. When an object is created using the new keyword, the constructor of the class is automatically called.
+Types of Constructors
+Default Constructor:
+If a class doesn't explicitly define a constructor, Java provides a default constructor with no arguments. It initializes instance variables with default values (e.g., 0 for int, null for objects).
+Parameterized Constructor:
+These constructors accept arguments, allowing for initialization of instance variables with specific values during object creation.
+Copy Constructor:
+It creates a new object as a copy of an existing object of the same class. While Java doesn't have a built-in copy constructor, it can be implemented manually.
+Constructor Overloading
+A class can have multiple constructors with different parameter lists, a feature known as constructor overloading. This allows objects to be initialized in various ways depending on the provided arguments.
+Rules for Constructors
+A constructor's name must be identical to the class name.
+Constructors do not have a return type (not even void).
+Constructors can have access modifiers (e.g., public, private, protected).
+If no constructor is defined, a default constructor is automatically provided.
+Constructors cannot be declared static, final, abstract, or synchronized.
+Example
+Java
+
+class Dog {
+    String name;
+    int age;
+
+    // Default constructor
+    public Dog() {
+        name = "Unknown";
+        age = 0;
+    }
+
+    // Parameterized constructor
+    public Dog(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public static void main(String[] args) {
+        Dog myDog1 = new Dog(); // Calls default constructor
+        Dog myDog2 = new Dog("Buddy", 3); // Calls parameterized constructor
+        
+        System.out.println("Dog 1: Name - " + myDog1.name + ", Age - " + myDog1.age);
+        System.out.println("Dog 2: Name - " + myDog2.name + ", Age - " + myDog2.age);
+    }
+}
