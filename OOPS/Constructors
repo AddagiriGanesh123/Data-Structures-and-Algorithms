@@ -1,0 +1,22 @@
+Constructors:
+Constructor is a component of a class in Java.
+Constructor can't have return type.
+Constructor is used to initialise the object
+In a class it is compulsory to have a Constructor
+In a class we can have more than one constructor
+Tpes of Constructors:
+1) Default Constructor: Default Constructor is the Constructor which is created by the compiler implicitly in class.
+
+2) User-Defined Constructor: User-Defined Constructor is a Constructor, is created by the programmer explicitly in class.
+we have two types for User-Defined Constructor:-
+1) Parameterised constructor: If we are passing any parameters in the constructor we will call it as Parameterised constructor
+2) Non-Parameterised constructor : If we are not passing any parameters in the constructor we will call it as Non-Parameterised constructor
+
+Syntax for the Constructor:
+access_modifier ClassName(){
+//statement
+}
+
+Note:- In a class we can not have duplicate constructor
+-> Some places default constructor and non-parametrised constructor considers as same
+
