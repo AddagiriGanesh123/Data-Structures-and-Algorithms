@@ -1,0 +1,5 @@
+When to use which Data Structure?
+-> We use stacks and queues for storing the answers for a period of time. Ex:- Happy Number
+-> Traversals in Binary Traversals
+-> IMplements BFS, DFS and Trees
+-> Conversion of Recursion problems to Iteratived problems 
