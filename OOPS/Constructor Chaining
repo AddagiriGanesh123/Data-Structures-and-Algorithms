@@ -2,3 +2,12 @@ Constructor chaining is the process of calling one constructor from another cons
 Why we use?
 -> When we want to perform multiple tasks in a single constructor raather than creating a code for each task, single constructor has separate constructor
    to each task which makes readaable and reliable.
+
+It can be done two ways:
+1) Within the class: by using this() keyword for constructors in the same class
+2) From Base Class: by using super() keyword to call constructor from the base class
+
+Rules for Constructor chaining within the same class:
+-> the this() expression should always be the first line of the constructor.
+-> There should be at-least one constructor with-out this() keyword.
+-> Constructor chaining can be aachieved in any order.
