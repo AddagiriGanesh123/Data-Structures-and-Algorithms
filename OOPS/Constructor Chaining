@@ -1,0 +1,4 @@
+Constructor chaining is the process of calling one constructor from another constructor.
+Why we use?
+-> When we want to perform multiple tasks in a single constructor raather than creating a code for each task, single constructor has separate constructor
+   to each task which makes readaable and reliable.
