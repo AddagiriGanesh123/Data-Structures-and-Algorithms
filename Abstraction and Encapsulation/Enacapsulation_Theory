@@ -1,0 +1,29 @@
+ENCAPSULATION:
+It is a concept of OOP
+-> Encapsulation is a process of binding the properties and behaviour of an object together.
+-> It restrict direct access of data
+-> Rather than giving direct access to the data it will give indirect secured access.
+-> Before modifying any data will verify and validate
+-> With the help of Encapsulation we can achieve data hiding.
+-> It also provde security to ths data.
+
+PRO'S:
+1. Data Hiding: The internal data of an object is hidden from the outside world, preventing direct access of data.
+2. Data Integrity: Only validated value can be assigned to an objects attribute. (With the help of setter method)
+3. Reusability: We can reuse the data for further modification.
+4. Security: Sensitive data is protected as it can not be accessed directly.
+
+
+** we can achieve encapsualtion with the help of private properties and using public method(which is getter and setter method)
+
+1. PRIVATE: It is a keyword
+we will prefix varaibles with the private keyword(Private variable)
+and we can't access private data
+
+2. Getter() method: It is used to fetch private data outside the class.
+-> return type will be any specific data
+-> getter() method will be non-parametertized method.
+
+3. Setter() method: for the set data or update the data outside the class.
+-> return the type of setter method will be void 
+-> It is a parameterized method.
