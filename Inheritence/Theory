@@ -1,0 +1,32 @@
+Inherietnce : it is an OOP principle
+-> If one class is trying to acquire the properties and behaviour from another class, we will call it as Inherietnce
+-> For Inherietnce it-is-a Relationship is required.
+Which is called as super class and sub class
+
+1.parent Class: the class will give properties and behaviour to another class, we will call it as Parent class.
+2.Child class: the calss wil take properties from another classs, it is called a child calass
+
+-> we can achieve inheritence in java with the help of extends keyword.
+
+Advantages:
+1) Code Resuabilty: Inherited member from super class, can be used in sub class
+2) Hierachial organization: Inherietnce provides well structured hierarchies which will improve readability and maintainence of code.
+3) It will help in method overRiding
+4) It will help in easier maintaince
+
+Types:
+1) Single Inhertence: It is a type of Inherietnce, in which one level of realtionship will be there. (one parent class, one child class)
+Ex: Father-Son
+
+2) Muilti level Inheritence: It is a type of Inherietnce, in whih parent class will more than one child class at a same level.
+Ex:      G.F-> FATHER -> SON
+
+3) Hierarchial Inheritence: It is a type of Inherietnce, in which one parent class will have more than one child at a same level.
+Ex:      MOTHER
+     SON       DAUGHTER
+
+4) Multiple Inheritence: It is a type of Inherietnce, in which child class will have more than one parent class at a same level.
+Note:- Muiltple inheritence is not supported wrt to class in java(Due to ambiguity problem or ambufity error)
+
+5) Hybrid iNheritence:- It is a combinition of more than one type of Inherietnce.
+->  It is not supported in java
