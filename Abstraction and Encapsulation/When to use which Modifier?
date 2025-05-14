@@ -10,7 +10,7 @@ Protected: I don't want any variables outside the package, I wanted to access th
 -> Only sub-class can access the memebers in the protected class when it is outside the package
 
 
-Public: When we wanted to be accesed every wehere withouyt any limitation
+Public: When we wanted to be accesed every wehere without any limitation
 
 
 
