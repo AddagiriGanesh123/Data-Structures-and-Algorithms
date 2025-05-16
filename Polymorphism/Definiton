@@ -18,3 +18,10 @@ Uses:
 
 4) Method Shadowing: If a parent class and child class both will have same static method the priority will be given to the parent class method.
 -> It is called method shadowing.
+
+2) Run time Polymorphism:
+It is a type of polymorphism, which is acjieved at run-time
+-> Method Overriding: If a parent class and child class will have same non-static method then child class method will Override parent class method.
+* child class method will over-rode
+* Parent class method will be overridden
+-> Is-a-Relationship required.
