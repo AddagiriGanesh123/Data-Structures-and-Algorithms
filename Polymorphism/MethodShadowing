@@ -1,0 +1,26 @@
+
+class Animal {
+    void makeSound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+class Dog extends Animal {
+    void makeSound() {
+        System.out.println("Dog barks");
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        // Create Animal object
+        Animal animal1 = new Animal();
+        animal1.makeSound();          // Prints "Animal makes a sound"
+        
+        // Upcasting
+        Animal animal2 = new Dog();   // Dog object is treated as Animal
+        animal2.makeSound();          // Prints "Dog barks"
+        
+        // Downcasting
+        Dog dog = (Dog) animal2;      // Converting back to Dog
+        dog.makeSound();              // Prints "Dog barks"
+    }
+}
