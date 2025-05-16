@@ -1,0 +1,20 @@
+Polymorphism: Anything in java which can perform more than one task at a time, we will call is as polymorphism.
+Polymorphism is a Greek Word.
+-> Poly : Many
+-> Morphism: Forms
+
+There are two types of Polymorphism:-
+1) Compile time Polymorphism:- It is a type of Polymorphism, in which the binding will be achieved at compile time.
+
+-> Method Overloading: It is a class will have more than one method with the same name and different parameters, we will call it as Meyhod Overloading.
+Uses:
+1. Code Reusability,
+2. It will make code efficient.
+
+2) Constructor Overloading: It is a class will have more than one constructor with same name and several parameters.
+
+3) Variable Shadowing: If a parent class and child class both will have same variable either static or non-static we will call it as Variable shadowing.
+-> Priority will be given to parent class
+
+4) Method Shadowing: If a parent class and child class both will have same static method the priority will be given to the parent class method.
+-> It is called method shadowing.
