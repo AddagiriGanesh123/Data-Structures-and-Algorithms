@@ -8,5 +8,5 @@ It is a keyword in java wuith variable, class and method.
 2. FINAl METHOD:: if we will prefix a method with final keyword, we will call it as final keyword.
  we can not over ride fianl method.
 
-3. Final cvlass: If we will prefixa  a class with final keyword it wiull become final class.
+3. Final cvlass: If we will prefix  a class with final keyword it will become final class.
 -> we cannot inherit final class.
