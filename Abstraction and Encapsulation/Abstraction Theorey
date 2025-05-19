@@ -1,0 +1,18 @@
+Abstraction is an OOP Principle:
+It is a process of the functionality and showing the essential to the user.
+we can achieve abstraction with the help of abstract keyword, abstract interface.
+the help of abstract class we can achieve 0-100% abstraction 
+Interface we can achieve 100% abstraction.
+
+1. Abstarct Class: It is an incomplete class.
+-> we will prefix a class with abstract keyword, it will be abstract clas.
+-> we cannot create object in the Abstract class.
+-> Abstract class we can have concrete method and abstract method as well need implementing class for abstract class.
+
+2. ABSTRACT mETHOD():
+-> If we prefix an abstract keyword with a given method we will call it as abstract method.
+-> Abstarct method cxan not have body.
+-> We have to give implementation for abstarct method (Over-ride the method) in implementing the class.
+-> Abstarct method will only method delaration statement and it will end with semi-column.
+
+3.Concrete Class:
