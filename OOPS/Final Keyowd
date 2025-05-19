@@ -2,6 +2,7 @@ Final Keyword:
 It is a keyword in java wuith variable, class and method.
 -> we can prefix final keyword with variable it will become final vuaribale.
 
+1. FINAL VARIABLE:
 -> we can't re-initialise final variable.
 
 2. FINAl METHOD:: if we will prefix a method with final keyword, we will call it as final keyword.
