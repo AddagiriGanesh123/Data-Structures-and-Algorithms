@@ -1,0 +1,26 @@
+class in java: object class is the super most class in Java.
+-> it is the parent class for all classes in java.
+-> It will have some built-in methods.
+1.TOSTRING() METHOD
+2.EQUALS()
+3. HASHCODE() METHOD
+
+1. ToString() : this method will usede to return the address of a given object in string fromat or hexadecimal format.
+-> Evey object will have some addresses.
+-> return type is String.
+
+2. equlas() method: it is used to compare two objects.
+like == operator
+-> It will compare the adderess of the object
+-> return type is boolean
+
+3. hashcode() : It is used to generate some unique id or number for every.
+-> It will generate hash number which is used in hashing.
+-> return type int data-type
+
+*****Overriding of toString(), equals(), hashcode():-
+1. After overriding toString() it will return not the address of  object but properties of object.
+
+2. After overriding equals() method it will compare properties of an object not the addresses of object
+
+3. After overridinf hashcode() method it will generate unique number based on properties not on object reference.
