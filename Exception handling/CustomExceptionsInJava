@@ -1,0 +1,33 @@
+package ExceptionHandling.CustomExceptions;
+
+public class Test {
+    public void validate(int age) throws InvalidAgeException{
+        if(age < 18){
+            throw new InvalidAgeException("Age must be > 18");
+        }else{
+            System.out.println("You are eligible for voting!");
+        }
+    }
+    public static void main(String[] args) {
+        Test test = new Test();
+        try{
+            test.validate(21);
+        }
+        catch(InvalidAgeException e){
+            System.out.println(e.getMessage());
+        }
+    }
+}
+
+package ExceptionHandling.CustomExceptions;
+
+public class InvalidAgeException extends Exception{
+    public InvalidAgeException(String message){
+        super(message);
+    }
+}
+// Creating Custom Exceptions:
+// 1) create class and extends with the parent class Exception
+// 2) create a constructor with a string parameter
+// 3) call the parent class constructor using super(message)
+// 4) use the custom exception in your code
